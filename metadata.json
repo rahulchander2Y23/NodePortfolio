@@ -1,0 +1,22 @@
+{
+    "name":"Rahul Chander",
+    "title":"Systems Engineer",
+    "headshot_url":"/static/images/photoshot.png",
+    "portfolio_desc":"This site has my portfolio of some interesting projects that I am currently working on.  It is high-level at the moment because all projects are at concept phase.  I am getting inspiration from work already done by others in this field and hope to build-upon it and release to the public under open-source license.",
+    "skills":["Web/HTML",
+                "Electronics Circuits",
+                "Business Analysis",
+                "Power Systems",
+                "Aviation Systems",
+                "Fleet Management Systems",
+                "Data Analysis",
+                "Property Management",
+                "Geographic Information Systems",
+                "Construction"
+            ],
+    "biography": "Hello! I am <span class='bspan'>Rahul Chander</span>.<br><br>I have a Bachelor's degree in Electrical Engineering from <a href='http://www.ece.ubc.ca' target='_blank'>UBC</a>, and a Master's degree in Biomedical Engineering from <a href='http://www.bmed.mcgill.ca' target='_blank'>McGill University</a>.  I am pretty much retired now, and I am currently a student at <a href='https://www.douglascollege.ca/' target='_blank' title='Douglas College'>Douglas College</a> where I am learning a few topics that will help me succeed in my aspirations, such as, <ul><li>Machine Learning</li>  <li>Web Development</li>   <li>Accounting</li>  <li>Engineering Prototyping</li></ul><p> I am passionate about renewable energy and addressing climate change.  Prior to studying at Douglas College, I was busy building my own house using the latest techniques to make it highly energy efficient.  During the course of construction, I picked up skills relating to trades and design/architecture. Mostly, I was self-taught and also learned by observing other professionals at their craft. <br><br>Through my multi-disciplinary skills, I am planning to create something meaningful that helps us fight the climate-change.  I am hoping that through this website, like-minded individuals, can find me and contribute to my projects.  Follow my <a target='_blank' href='https://www.twitter.com/Net2Zero/' title=\"Rahul's Twitter Feed\">Twitter <sup>&reg;</sup> feed</a> and connect with me on <a href='https://www.linkedin.com/in/rahul-chander-peng-b8611618/' target='_blank' title=\"Rahul's LinkedIn Profile\">Linkedin<sup>&reg;</sup></a>.</p>",
+    "contact": ["778-556-1234","rchander@personal-email.com"],
+    "linkedin_url":"https://www.linkedin.com/in/rahul-chander-peng-b8611618/",
+    "github_url":"https://github.com/rahulchander2Y23/",
+    "twitter_url":"https://www.twitter.com/Net2Zero"
+}

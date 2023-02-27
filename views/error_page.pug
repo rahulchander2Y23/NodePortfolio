@@ -1,0 +1,36 @@
+extends layout.pug
+
+block content 
+  // Student Name: Rahul Chander
+  // Student ID: 300371570
+  // CSIS-3380 Node Express Project
+
+  // 404-page
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        
+        
+        h1 Page Not Found
+
+        
+        p.lead.text-light
+          | Cannot find the page your requested.  <br>
+          | Please check the URL or contact me if you think this is a bug.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          each contact_item in meta_data.contact
+            li #{contact_item}
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href=meta_data.linkedin_url target='_blank') LinkedIn
+        a.button.expanded(href=meta_data.github_url target='_blank') GitHub
+        a.button.expanded(href=meta_data.twitter_url target='_blank') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

@@ -1,0 +1,101 @@
+[{
+    "project_title":"Integrated Air Quality Monitoring System",
+    "project_desc": "<p>I plan to make an Arduino based device that can connect over BlueTooth and Wifi to various home-sensors with Bluetooth or Wifi connectivity with REST API.  <p>The idea is to integrate the data from the sensors from different manufacturers and then make adjustments to ventilation equipment settings and also perform trend-analysis.  Using machine-learning, the temperature, humidity, CO2-control, Radon-control can be optimized for improvement in indoor air-quality and also reduce energy consumption.  As a user of the system, I will be able to monitor the sensors over the Internet in a nice dashboard.  ",
+    "thumb_url": "/static/images/AQ_Monitor_550x550.png",
+    "technologies": [
+        "CSS",
+        "HTML",
+        "MySQL",
+        "BlueTooth/Wifi",
+        "REST API",
+        "Arduino"
+    ],
+    "live_demo_url": "",
+    "github_url": "",
+    "images": [
+        "/static/images/AQ_Monitor1.png",
+        "/static/images/AQ_Monitor2.png"
+        
+    ]
+},
+
+{
+    "project_title":"Rental Application and Booking System",
+    "project_desc": "<p>I manage a few rental units and whenever there is an opening, I need to screen tenants and book appointments for showings.  It is time consuming to get necessary information from hundreds of tenants and then book them for showings without creating time-conflicts.  Often, tenants are no-show for the appointment. <p>I want to create a system where potential tenant can provide some information about themselves, and if they meet a certain criteria, they will be allowed to book a showing time-spot.  When the booking is reserved, the system will send reminders to the tenant about their appointment time or allow them to cancel using the system.",
+    "thumb_url": "/static/images/Rental_App_550x550.png",
+    "technologies": [
+        "JavaScript",
+        "MySQL",
+        "Web Server"
+    ],
+    "live_demo_url": "",
+    "github_url": "",
+    "images": [
+        "/static/images/Rental_App2.png",
+        "/static/images/Rental_App1.png",
+        "/static/images/Rental_App3.png"        
+    ]
+},
+{
+    "project_title":"Chatbot for Screening Rental Applicants",
+    "project_desc": "<p>When managing rental properties and looking for new tenants, a lot of time is spent asking some basic standard questions that are repeated for each applicant.  How many people in the group? What does everyone do for work? Why are you looking for a new place? etc.  <p>Since the advent of Facebook Marketplace, it is my sole choice for advertisement as it has a huge reach, generates really good response for listings, and has a built-in chat messenger app.  I find that sometimes hundreds of applicant contact me and I am glued to my phone responding to everyone or don't even manage to respond in a timely manner. <p> Ideally, I want a chatbot system integrated through Facebook which can automate some preliminary interaction with applicants. System can log enough information to create a tenant's profile and also make a recommendation which I can review for further screening.  This type of chatbot can free up my time and ensure all inquiries get a response.",
+    "thumb_url": "/static/images/FB_Chatbot1_550x550.png",
+    "technologies": [
+        "JavaScript",
+        "MySQL",
+        "Web Server",
+        "Facebook API",
+        "Chrome Web-Driver",
+        "Python",
+        "Machine Learning",
+        "Language Model"
+    ],
+    "live_demo_url": "",
+    "github_url": "",
+    "images": [
+        "/static/images/FB_Chatbot1.png",
+        "/static/images/FB_Chatbot2.png"
+    ]
+},
+
+{
+    "project_title":"Grocery/Essentials List Tracker",
+    "project_desc": "<p>My wife and I shop independently at multiple grocery stores.  We want to move away from a paper-based list and want to update the shopping list dynamically as each item is physically picked up by either one of us.  Some items are available in multiple stores such as SuperStore, Walmart, Costco, etc.  So depending on which store one of us is at, system can show us all items that can be purchased at the current store.  The system can also list the aisle where a particular item is typically found.  <p>My wife and I are  picky about eating on low-sugar vegan foods and often have to screen the ingredients carefully to check if ingredients are both vegan and free of hidden-sugars.  The system can screen the ingredients based on criteria using the SKU for any new items we want to try out and give us warnings on harmful ingredients. ",
+    "thumb_url": "/static/images/Grocery_List_550x550.jpg",
+    "technologies": [
+        "JavaScript",
+        "MySQL",
+        "Web Server",
+        "REST API"
+    ],
+    "live_demo_url": "",
+    "github_url": "",
+    "images": [
+        "/static/images/Grocery_List1.png",
+        "/static/images/Grocery_List2_ananthu-ganesh-gWzmrNBd17E-unsplash.jpg"
+    ]
+},
+{
+    "project_title":"Traffic Light Advisory System",
+    "project_desc": "<p>I used to commute from New Westminster to Vancouver and took Marine Way for most of the journey.  After driving for many days on this stretch of arterial road, I realized that the traffic lights were not really tuned at certain intersections.  Basically, there would be a signal change on one intersection (red → green) and then just on the next intersection by the time I reached there, the signal changed again (green → red).  Some people call this phenomenon as being stuck in a <strong>red-loop</strong>.  <p>It causes traffic jams, idling cars end up increasing pollution and fuel-usage, and emergency vehicles have a hard time in responding.  It also causes economy to lose money due to lost productivity as productive labor force is stuck in traffic. Using the traffic data available on Google Maps in real-time, a system can analyze which traffic light controls have gone out of sync and need tuning. Then the system can forward this information to the municipality for further review. If it works, the system can be scaled to other metropolitan areas where Google Maps has publicly available traffic data.",
+    "thumb_url": "/static/images/Traffic_Advisory_550x550.png",
+    "technologies": [
+        "JavaScript",
+        "MySQL",
+        "Web Server",
+        "Google Maps API",
+        "Python",
+        "Machine Learning",
+        "GIS"
+    ],
+    "live_demo_url": "",
+    "github_url": "",
+    "images": [
+        "/static/images/Traffic_Advisory1.png",
+        "/static/images/Traffic_Light2_Jeremy_Bezanger.jpg",
+        "/static/images/Traffic_Light1_albert-stoynov-BbYCOtookQ0-unsplash.jpg"
+    ]
+}
+
+
+]

@@ -1,0 +1,48 @@
+extends layout.pug
+
+block content 
+  // Student Name: Rahul Chander
+  // Student ID: 300371570
+  // CSIS-3380 Node Express Project
+
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 #{meta_data.name}
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | #{meta_data.title}
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            !=meta_data.biography
+            
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          each skill in meta_data.skills
+            li #{skill}
+          
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          each contact_item in meta_data.contact
+            li #{contact_item}
+          
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href=meta_data.linkedin_url target='_blank') LinkedIn
+        a.button.expanded(href=meta_data.github_url target='_blank') GitHub
+        a.button.expanded(href=meta_data.twitter_url target='_blank') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
